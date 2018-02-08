@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100%;
+}
+
+.main-card {
+  background-color: khaki;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 65%;
+}
+
+.card {
+  width: 33.33%;
+  padding-top: 3%;
+}
+
+.card-1 {
+  background-color: greenyellow;
+  width: 66.66%;
+}
+
+.card-2 {
+  background-color: blue;
+}
+
+.card-3 {
+  background-color: lightblue;
+}
+
+.card-4 {
+  background-color: lightgoldenrodyellow;
+}
+
+.card-5 {
+  background-color: lightslategray;
+}
+
+.card-6 {
+  background-color: lightsalmon;
+}
+
+.card-7 {
+  background-color: lightgreen;
+}
+
+.card-8 {
+  background-color: lightcyan;
+}
