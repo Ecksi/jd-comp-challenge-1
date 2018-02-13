@@ -28,6 +28,7 @@ body {
 .card {
   align-items: center;
   background-position: center;
+  background-position-y: 40%;
   background-repeat: no-repeat;
   background-size: 75px;
   display: flex;
@@ -40,7 +41,7 @@ body {
   font-family: "Amatic SC";
   font-size: 24px;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 /* Card 1 */
@@ -112,7 +113,7 @@ body {
 
 /* Card 2 */
 .card-2 {
-  background-color: #FFB6C1;  
+  background-color: #FFA07A;  
   background-image: url('../images/centaur-1.svg');
 }
 
@@ -168,7 +169,7 @@ body {
 
 /* Card 6 */
 .card-6 {
-  background-color: #FFA07A;  
+  background-color: #20B2AA;  
   background-image: url('../images/werewolf-1.svg');
 }
 
@@ -213,6 +214,7 @@ body {
 .side-card {
   background-image: url('../images/unicorn-full.jpg');
   background-position-x: 50%;
+  background-size: auto;
   width: 35%;
 }
 
@@ -272,4 +274,112 @@ body {
   padding-left: 2px;
   right: 1.5%;
   top: 47.5%;
+}
+
+/* Smaller Monitor */
+@media only screen and (max-width: 850px) {
+  .card-1 {
+    padding: 40px 5px 5px 5px;
+    text-align: center;
+  }
+
+  .card-text {
+    margin-top: 100px;
+  }
+
+  .left-arrow {
+    right: 31%;
+  }
+
+  .dot-1 {
+    right: 6%;
+  }
+
+  .dot-2 {
+    right: 3.5%;
+  }
+
+  .dot-3 {
+    right: 1%;
+  }
+}
+
+/* Tablet styling */
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .main-card {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+  }
+
+  .card-1 {
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .card-6 {
+    order: 2;
+  }
+
+  .card {
+    background-position-y: 30%;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .card-text {
+    margin-top: 100px;
+  }
+
+  .side-card {
+    background-image: url("../images/mobile-unicorn.jpg");
+    background-position-y: 15%;
+    height: 30%; 
+    position: absolute;
+    top: 0px;
+    width: 100%;   
+  }
+
+  .left-arrow {
+    left: 1.5%;
+  }
+
+  .dot-1 {
+    right: 6%;
+  }
+
+  .dot-2 {
+    right: 3.5%;
+  }
+
+  .dot-3 {
+    right: 1%;
+  }
+}
+
+/* Phone styling */
+@media only screen and (max-width: 400px) {
+  .card-6 {
+    order: 2;
+  }
+  
+  .side-card {
+    background-color: #000000;
+    background-image: url("../images/unicorn.gif");
+    background-position-x: 5%;
+    background-repeat: no-repeat;
+  }
+
+  .dot-1 {
+    right: 11%;
+  }
+
+  .dot-2 {
+    right: 6%;
+  }
 }
