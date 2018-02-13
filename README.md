@@ -7,4 +7,4 @@ Number one in a series of challenges to work on building our HTML/CSS muscle. We
 ![alt text](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg "Original Comp")
 
 ## My Creation
-![alt text](hhttps://imgur.com/a/DFyXr "My Creation")
+![alt text](https://imgur.com/a/DFyXr "My Creation")
