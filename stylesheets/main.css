@@ -371,6 +371,13 @@ body {
 
   .side-card:active {
     background-image: url('../images/unicorn-3.svg');
+<<<<<<< HEAD
+  }
+
+  .main-card {
+    top: 150px;
+=======
+>>>>>>> d4f6580ece2d2c6fc6647c9995b388b47506cc98
   }
 
   .main-card {
